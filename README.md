@@ -1,6 +1,6 @@
 #MOVIE APP
 
-https://frabjous-bunny-684f42.netlify.app
+https://movieappbasic.netlify.app
 
 - Movie App for who wants to search for a word and see the movies about that word. 
 
