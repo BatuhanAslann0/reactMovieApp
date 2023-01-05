@@ -88,36 +88,3 @@ const MoviesList = () => {
 
 
 export default MoviesList
-
-
-
-
-
-
-
-
-//  <div className='movies-container'>
-//         <div className="movies">
-//           {searchedMovie === '' ? 
-//            movies.map((movie, idx) => (
-//                 <div key={idx} className='movie'>               
-//                 <img src={`https://image.tmdb.org/t/p/w200/${movie.poster_path}`} alt="img" />
-//                 <div className="movie-infos">
-//                   <h2>{movie.title}</h2>
-//                   <p>IMDb: {movie.vote_average}</p>
-//                 </div>
-//                 </div>
-//             )) : movies !== [] ? filteredMovies().map((movie,idx) => (
-//               <div key={idx} className='movie'>               
-//                   <img src={`https://image.tmdb.org/t/p/w200/${movie.poster_path}`} alt="img" />
-//                   <div className="movie-infos">
-//                     <h2>{movie.title.length < 50 ? movie.title : null }</h2>
-//                     <p>IMDb: {movie.vote_average}</p>
-//                   </div>
-//                 </div>
-//             )) : (
-//               <p className='no-movie-message'>There is no movies in our data with this name. Sorry. </p>
-//             )
-//           }
-//         </div>
-//     </div>
